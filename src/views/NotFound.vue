@@ -7,5 +7,4 @@
             </router-link>
         </p>
     </div>
-</template> 
-    
+</template>
