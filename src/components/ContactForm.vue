@@ -34,6 +34,7 @@
         </div>
     </Form>
 </template>
+
 <script>
 import * as yup from 'yup';
 import { Form, Field, ErrorMessage } from 'vee-validate';
@@ -78,7 +79,7 @@ export default {
     },
     methods: {
         submitContact() {
-            this.$emit('submit:contact', this.contactLocal);
+            this.$emit('submit:contact', this.contactLocal)
         },
         deleteContact() {
             this.$emit('delete:contact', this.contactLocal.id);
